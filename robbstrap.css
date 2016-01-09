@@ -1,0 +1,282 @@
+/*
+
+Maroon: #8c332f
+
+*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    padding-top: 50px; /*for navbar*/
+    margin-bottom: 60px; /*for footer*/
+  /*  font-family: "Open Sans";*/
+    font-size: 11pt;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.container-nopad {
+  padding: 0;
+}
+
+h1 {
+  font-family: "bitter";
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-size: 24pt;
+}
+
+h2 {
+  font-family: "bitter";
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-family: "bitter";
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.thumbnail {
+  border-color: #fff;
+}
+
+.handshake {
+  background-color: #fff;
+}
+
+.handshake p {
+  font-size: 12pt;
+  font-style: italic;
+  color: #999;
+}
+
+.handshake h1 {
+  font-size: 20pt;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.intro {
+  position: relative;
+  background-color: #8c332f;
+/*  background: #000 url("img/intro4.jpg") center center; */
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  padding: 20px 0px;
+}
+
+.intro li{
+  color: #fff;
+  margin: 12px;
+}
+
+.work a{
+  font-size: 14pt;
+}
+
+.work p{
+  vertical-align: middle;
+}
+
+/*Experience Section*/
+
+.xp {
+  background-color: #eee;
+  margin-top: 18px;
+}
+
+.xp h1 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+.xp h2 {
+  color: #999;
+  font-size: 18pt;
+  font-weight: 400;
+  margin-bottom: 4px;
+  margin-top: 28px;
+}
+
+.xp h3 {
+  margin-bottom: 4px;
+  font-size: 14pt;
+  /*float:left;*/
+}
+
+.xp .note {
+  /*text-align: right;
+  float: right; /*If something goes wrong, check this. maybe clearing floats?*/
+  color: #999;
+  font-style: italic;
+  margin-bottom: 6px;
+}
+
+.xp .detail {
+  margin-bottom: 8px;
+}
+
+.contact {
+  background-color: #333;
+  color: #fff;
+  padding-bottom: 12px;
+}
+
+.contact li{
+  margin: 12px 0;
+}
+
+.contact ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer p{
+  /*footer padding*/
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+/************* ARTICLE ***************************/
+
+.article .jumbotron {
+    position: relative;
+    background: #000 url("img/intro2.JPG") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.article .jumbotron h1 {
+  line-height: 120%;
+  margin-bottom: 10px;
+}
+
+.article .jumbotron p {
+  font-size: 12pt;
+  font-style: italic;
+}
+
+.article img {
+  padding: 12px 0;
+}
+
+/*************  Custom Buttons  ******************/
+.btn-linkedin {
+  color: #ffffff;
+  background-color: #0077B5;
+  border-color: #0077B5;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open .dropdown-toggle.btn-linkedin {
+  color: #ffffff;
+  background-color: #006399;
+  border-color: #0077B5;
+}
+
+.btn-linkedin:active,
+.btn-linkedin.active,
+.open .dropdown-toggle.btn-linkedin {
+  background-image: none;
+}
+
+.btn-linkedin.disabled,
+.btn-linkedin[disabled],
+fieldset[disabled] .btn-linkedin,
+.btn-linkedin.disabled:hover,
+.btn-linkedin[disabled]:hover,
+fieldset[disabled] .btn-linkedin:hover,
+.btn-linkedin.disabled:focus,
+.btn-linkedin[disabled]:focus,
+fieldset[disabled] .btn-linkedin:focus,
+.btn-linkedin.disabled:active,
+.btn-linkedin[disabled]:active,
+fieldset[disabled] .btn-linkedin:active,
+.btn-linkedin.disabled.active,
+.btn-linkedin[disabled].active,
+fieldset[disabled] .btn-linkedin.active {
+  background-color: #0077B5;
+  border-color: #0077B5;
+}
+
+.btn-linkedin .badge {
+  color: #0077B5;
+  background-color: #ffffff;
+}
+
+
+/*TWITTER*/
+.btn-twitter {
+  color: #ffffff;
+  background-color: #55ACEE;
+  border-color: #55ACEE;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #4C9DDB;
+  border-color: #55ACEE;
+}
+
+.btn-twitter:active,
+.btn-twitter.active,
+.open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+
+.btn-twitter.disabled,
+.btn-twitter[disabled],
+fieldset[disabled] .btn-twitter,
+.btn-twitter.disabled:hover,
+.btn-twitter[disabled]:hover,
+fieldset[disabled] .btn-twitter:hover,
+.btn-twitter.disabled:focus,
+.btn-twitter[disabled]:focus,
+fieldset[disabled] .btn-twitter:focus,
+.btn-twitter.disabled:active,
+.btn-twitter[disabled]:active,
+fieldset[disabled] .btn-twitter:active,
+.btn-twitter.disabled.active,
+.btn-twitter[disabled].active,
+fieldset[disabled] .btn-twitter.active {
+  background-color: #55ACEE;
+  border-color: #55ACEE;
+}
+
+.btn-twitter .badge {
+  color: #55ACEE;
+  background-color: #ffffff;
+}
