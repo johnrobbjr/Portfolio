@@ -10,8 +10,8 @@ html {
 }
 
 body {
-    padding-top: 50px; /*for navbar*/
-    margin-bottom: 60px; /*for footer*/
+    /*padding-top: 50px; /*for navbar*/
+    margin-bottom: 40px; /*for footer*/
   /*  font-family: "Open Sans";*/
     font-size: 11pt;
 }
@@ -176,17 +176,16 @@ h3 {
 
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 42px;
   background-color: #222;
 }
 
 .footer p{
   /*footer padding*/
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   color: #666;
 }
