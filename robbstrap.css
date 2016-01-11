@@ -89,6 +89,8 @@ h3 {
 
 .work img {
   float:left;
+  padding: 0px;
+  margin: 0;
   padding-right: 12px;
 }
 
@@ -96,16 +98,32 @@ h3 {
   font-size: 14pt;
   vertical-align: middle;
   margin-bottom: 6px;
+  margin-top: 0;
+}
+
+.work table {
+  padding: 0;
+  margin: 0;
+  height: 130px;
 }
 
 .work td {
-  padding-bottom: 20px;
+  padding: 0;
+  margin: 0;
+  /*padding-bottom: 20px;*/
+}
+
+.work tr {
+  padding: 0;
+  margin: 0;
 }
 
 .work p {
   font-size: 11pt;
   color: #999;
   font-style: italic;
+  margin-bottom: 0;
+  line-height: 120%;
 }
 
 /*Experience Section*/
