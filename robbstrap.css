@@ -202,6 +202,8 @@ h3 {
     overflow: hidden;
     color: #fff;
     margin-bottom: 24px;
+    padding-top: 18px;
+    padding-bottom: 12px;
 }
 
 .article .jumbotron h1 {
@@ -214,8 +216,28 @@ h3 {
   font-style: italic;
 }
 
+.article h2 {
+  font-size: 20pt;
+  margin-bottom: 16px;
+}
+
 .article img {
-  padding: 12px 0;
+  margin: 12px 0px 24px 0px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 640px;
+}
+
+.otherwork p {
+  text-align: center;
+}
+
+.otherwork {
+  margin-bottom: 48px;
+}
+
+.otherwork img {
+  margin-bottom: 8px;
 }
 
 /*************  Custom Buttons  ******************/
