@@ -16,6 +16,10 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Lightbox-->
+    <link href="lightbox-master/dist/ekko-lightbox.css" rel="stylesheet">
+
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
@@ -62,7 +66,11 @@
 
     <br/><br/>
     <font color="#999"><i>Before the Redesign</i></font>
-    <img src="img/ta/old-website_01.png" class="img-responsive">
+
+    <a href="img/ta/old-website_01.png" data-toggle="lightbox" data-gallery="imagesizes" class="img-responsive">
+        <img src="img/ta/old-website_01.png" class="img-responsive">
+    </a>
+
 
     The website was generated from a template, and the content and interactions were not created with the product or the user in mind.
 
@@ -164,6 +172,16 @@
       <p>Coded up by John Robb</p>
   </footer>
 
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="lightbox-master/dist/ekko-lightbox.js"></script>
+
+
+
+  <script src="robbascript.js"></script>
 
 </body>
 
