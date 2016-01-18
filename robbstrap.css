@@ -59,7 +59,8 @@ p {
 }
 
 .handshake {
-  background-color: #fff;
+  background-color: #5462C3;
+  color: #fff;
 }
 
 .handshake img {
@@ -67,15 +68,10 @@ p {
 }
 
 .handshake p {
+  font-family: "bitter";
   font-size: 12pt;
-  font-style: italic;
-  color: #999;
+  margin-bottom: 40px;
 }
-
-.handshake h1 {
-  font-size: 20pt;
-}
-
 
 .jumbotron {
   margin-bottom: 0;
@@ -167,6 +163,7 @@ p {
 .xp h3 {
   margin-bottom: 4px;
   font-size: 14pt;
+  margin-top: 0;
   /*float:left;*/
 }
 
