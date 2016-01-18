@@ -51,6 +51,13 @@ p {
   font-size: 12pt;
 }
 
+.caption {
+  margin-top: -20px;
+  margin-bottom: 16px;
+  font-style: italic;
+  color: #666;
+}
+
 .handshake {
   background-color: #fff;
 }
