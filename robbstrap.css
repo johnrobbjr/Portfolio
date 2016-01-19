@@ -1,9 +1,3 @@
-/*
-
-Maroon: #8c332f
-
-*/
-
 html {
   position: relative;
   min-height: 100%;
@@ -12,7 +6,6 @@ html {
 body {
     /*padding-top: 50px; /*for navbar*/
     margin-bottom: 40px; /*for footer*/
-  /*  font-family: "Open Sans";*/
     font-size: 11pt;
 }
 
@@ -51,6 +44,10 @@ p {
   font-size: 12pt;
 }
 
+.btn {
+  border-radius: 2px !important;
+}
+
 .caption {
   margin-top: -20px;
   margin-bottom: 16px;
@@ -63,10 +60,6 @@ p {
   color: #fff;
 }
 
-.handshake img {
-  max-height: 360px;
-}
-
 .handshake p {
   font-family: "bitter";
   font-size: 12pt;
@@ -77,6 +70,8 @@ p {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
+/* Intro Section*/
 
 .intro {
   position: relative;
@@ -140,7 +135,8 @@ p {
 
 .xp {
   background-color: #f2f2f2;
-  margin-top: 18px;
+  height: 100%;
+  margin-top: 24px;
 }
 
 .xp .container {
@@ -153,7 +149,6 @@ p {
 }
 
 .xp h2 {
-  color: #999;
   font-size: 18pt;
   font-weight: 400;
   margin-bottom: 4px;
@@ -184,18 +179,46 @@ p {
   margin-bottom: 12px;
 }
 
+/* Skills Section */
+.skills {
+  background-color: #5462C3;
+  height: 100%;
+  padding-bottom: 32px;
+  color: #fff;
+}
+
+.skills h3 {
+  margin-bottom: 12px;
+}
+
+.skills p {
+  line-height: 40px;
+}
+
 /* About Section */
 
 .about {
-  padding-bottom: 18px;
+  padding-bottom: 32px;
+  background-color: #f2f2f2;
 }
 
 .about ul{
-  list-style: none;
+  margin-left: -4px;
 }
 
 .about li{
-  margin: 8px 0;
+  margin: 8px 8px;
+}
+
+.about i{
+  margin-right: 8px;
+  color: #333;
+}
+
+.about img {
+  float: left;
+  padding: 0;
+  margin: 12px 12px 12px 0;
 }
 
 
@@ -204,16 +227,17 @@ p {
 .contact {
   background-color: #333;
   color: #fff;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
+  padding-top: 18px;
 }
 
-.contact li{
-  margin: 12px 0;
+.contact p {
+  margin-bottom: 18px;
 }
 
-.contact ul{
-  list-style: none;
-  padding-left: 0px;
+.contact a {
+  margin: 0 4px;
+  margin-bottom: 12px;
 }
 
 .footer {
