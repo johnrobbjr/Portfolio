@@ -16,15 +16,16 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!--Lightbox-->
-    <link href="lightbox-master/dist/ekko-lightbox.css" rel="stylesheet">
-
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 
     <!-- Custom CSS -->
     <link href="robbstrap.css" rel="stylesheet">
+
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -101,7 +102,9 @@
         We started with an extremely low fidelity prototype to figure out the basic functionalities of the application. I went to a gallery event with a small
         notebook, and wrote something down every time I felt compelled to use the app.
     </p>
-        <img src="img/critter/sketchbook.jpg" class="img-responsive" alt="lo-fi prototype">
+        <a class="fancybox" href="img/critter/sketchbook.jpg">
+          <img src="img/critter/sketchbook.jpg" class="img-responsive" alt="lo-fi prototype">
+        </a>
         <p class="caption">Prototype exercise feat. unrelated sketch</p>
     <p>
         From this we gained valuable insights at when a person might use this during their gallery experience and how a person might interact with others while
@@ -121,18 +124,26 @@
     <p>
         Miki and I took to the whiteboard, and eventually came up with the app’s user flows and general layouts.
     </p>
+    <a class="fancybox" href="img/critter/whiteboard_1.jpg">
         <img src="img/critter/whiteboard_1.jpg" class="img-responsive" alt="whiteboard">
+      </a>
+    <a class="fancybox" href="img/critter/sketch-mobile.jpg">
         <img src="img/critter/sketch-mobile.jpg" class="img-responsive" alt="sketches">
+    </a>
     <p>
         For the logo we called up another friend with a strong visual design background, and iterated until we got to our fun little
         "critter" (derived from the word "critique"):
     </p>
+    <a class="fancybox" href="img/critter/logo.jpg">
       <img src="img/critter/logo.jpg" class="img-responsive" alt="Critter logo development">
+    </a>
     <p>
         I used the sketches to create hi-fi mockups which I would reference during the development phase.
     </p>
     <p>
+      <a class="fancybox" href="img/critter/hifi.png">
       <img src="img/critter/hifi.png" class="img-responsive" alt="Hi-Fi Mockups">
+    </a>
     </p>
     <p>
         <h3>Pre-Launch</h3>
@@ -142,7 +153,10 @@
         coffee, discussing our idea, possibilities of expansion, and what she could do to help us. We sent her a press release and <a href="http://bmoreart.com/event/critter-launch-in-conjunction-with-alloverstreet-may-8">it was posted to Bmore Art</a>, which
         many people mentioned to have seen at the launch.
     </p>
+    <a class="fancybox" href="img/critter/bmore-art.png">
+
         <img src="img/critter/bmore-art.png" alt="Press release on Bmore Art" class="img-responsive">
+      </a>
         <p class="caption">Press Release published on Bmore Art</p>
     <p>
         We promoted the event on Facebook, and teamed up with Alloverstreet to have it sent out in their pre-event email.
@@ -157,7 +171,9 @@
         We prepared our table outside of the Alloverstreet event with purple balloons and tablecloth, as well as lollipops to give out. We asked some friends to
         comment and start the conversation as they went around, which unfortunately did not come to fruition.
     </p>
+    <a class="fancybox" href="img/critter/miki.jpg">
         <img src="img/critter/miki.jpg" class="img-responsive">
+      </a>
         <p class="caption">Miki manning the booth</p>
     <p>
         As people filtered in, we asked them if they wanted a lollipop, and gave a small pitch about what critter was and how they could download it. We talked to
@@ -229,12 +245,28 @@
       <p>Coded up by John Robb</p>
   </footer>
 
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
-  <script src="lightbox-master/dist/ekko-lightbox.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox -->
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+  <!-- Optionally add helpers - button, thumbnail and/or media -->
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+  <script type="text/javascript">
+  	$(document).ready(function() {
+  		$(".fancybox").fancybox();
+  	});
+  </script>
 
 </body>
 

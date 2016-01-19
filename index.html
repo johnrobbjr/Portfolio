@@ -22,6 +22,11 @@
     <!-- Custom CSS -->
     <link href="robbstrap.css" rel="stylesheet">
 
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+
     <!-- Fonts -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
@@ -36,7 +41,6 @@
 </head>
 
 <body>
-
   <div class="jumbotron handshake">
     <div class="container text-center">
         <h1>Hello!</h1>
@@ -198,7 +202,10 @@
   <div class="container-fluid about">
     <div class="container col-md-offset-2 col-md-8">
       <h2>About Me</h2>
-      <img class="img-responsive col-xs-12 col-sm-6 col-md-4" src="img/seville.jpg" alt="About Me Image">
+      <a class="fancybox" href="img/seville.jpg">
+        <img class="img-responsive col-xs-12 col-sm-6 col-md-4" src="img/seville.jpg" alt="About Me Image">
+      </a>
+
       <p>
         Sponges are my spirit animal. I will absorb whatever information comes my way: new methodologies, information about a field I’m not familiar with, or design critiques. I will always take criticism thankfully and use it to improve upon my own skills as a designer.
         <br/>
@@ -235,11 +242,28 @@
       <p>Coded up by John Robb</p>
   </footer>
 
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="js/bootstrap.min.js"></script>
+<!-- Add jQuery library -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
 </body>
 
 </html>
