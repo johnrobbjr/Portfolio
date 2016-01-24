@@ -1,0 +1,54 @@
+/* sm */
+
+@media (min-width: 768px) {
+  .handshake {
+    padding-top: 60px;
+    padding-bottom: 36px;
+  }
+
+  .handshake h1 {
+    margin-bottom: 36px;
+  }
+
+  .handshake p {
+    font-size: 12pt;
+  }
+
+  .intro {
+    padding: 40px 0;
+  }
+
+  .work {
+    padding: 40px 0 32px 0;
+  }
+
+  .xp {
+    padding: 28px 0 28px 0;
+  }
+
+  .xp .btn {
+    margin-top: 16px;
+  }
+
+  .skills {
+    padding: 36px 0 72px 0;
+  }
+
+  .about {
+    padding: 40px 0;
+  }
+}
+
+/* md */
+
+@media (min-width: 992px) {
+  .handshake {
+  }
+}
+
+/* lg */
+
+@media (min-width: 1200px) {
+  .handshake {
+  }
+}
