@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 .btn {
@@ -273,6 +273,10 @@ p {
     background: #000 url("img/article_nhc.jpg") center center;
 }
 
+.pl-page {
+    background: #000 url("img/article_pl.png") center center;
+}
+
 
 .article .jumbotron h1 {
   line-height: 120%;
@@ -303,6 +307,14 @@ p {
 /*  max-width: 640px; */
 }
 
+.article ul {
+  margin-left: 27px; /*15 for container + ... */
+}
+
+.article li {
+  margin-bottom: 8px;
+}
+
 .article blockquote {
   font-size: 12pt;
   margin-top: 16px;
@@ -315,6 +327,13 @@ p {
   list-style: none;
 }
 
+.pdf {
+  margin-bottom: 18px;
+  height: 500px;
+}
+
+/* Other Work */
+
 .otherwork p {
   text-align: center;
 }
@@ -326,6 +345,10 @@ p {
 .otherwork img {
   margin-bottom: 8px;
 }
+
+
+
+
 
 /*************  Custom Buttons  ******************/
 .btn-linkedin {
