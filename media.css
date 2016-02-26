@@ -1,6 +1,10 @@
 /* sm */
 
 @media (min-width: 768px) {
+  .about img {
+    margin-bottom: 4px;
+  }
+
   .handshake {
     padding-top: 60px;
     padding-bottom: 36px;
@@ -37,18 +41,20 @@
   .about {
     padding: 40px 0;
   }
+
+  #past {
+    padding-left: 16px;
+  }
 }
 
 /* md */
 
 @media (min-width: 992px) {
-  .handshake {
-  }
+
 }
 
 /* lg */
 
 @media (min-width: 1200px) {
-  .handshake {
-  }
+
 }

@@ -58,6 +58,11 @@ p {
 .handshake {
   background-color: #5462C3;
   color: #fff;
+  text-shadow: 0px 1px 8px rgba(0, 0, 0, .1);
+  background-image: url('img/handshake.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .handshake p {
@@ -181,6 +186,11 @@ p {
   background-color: #f2f2f2;
 }
 
+.about-lead {
+  font-family: "bitter";
+  font-size: 13pt;
+}
+
 .about ul{
   margin-left: -4px;
 }
@@ -197,7 +207,7 @@ p {
 .about img {
   float: left;
   padding: 0;
-  margin: 0 12px 4px 0;
+  margin: 0 12px 16px 0;
 }
 
 
