@@ -283,6 +283,10 @@ p {
     background: #000 url("img/article_pl.png") center center;
 }
 
+#article-pp {
+    background: #000 url("img/article_pp.jpg") center center;
+}
+
 
 .article .jumbotron h1 {
   line-height: 120%;
