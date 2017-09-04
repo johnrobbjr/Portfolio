@@ -6,7 +6,7 @@ html {
 body {
     /*padding-top: 50px; /*for navbar*/
     margin-bottom: 40px; /*for footer*/
-    font-size: 11pt;
+    font-size: 13pt;
 }
 
 .container-fluid {
@@ -41,7 +41,7 @@ h4 {
 }
 
 p {
-  font-size: 11pt;
+  font-size: 13pt;
 }
 
 .btn {
@@ -250,6 +250,11 @@ p {
 
 /************* ARTICLE ***************************/
 
+.article p {
+    font-family: 'Droid Serif', serif;
+    line-height: 160%;
+}
+
 .article .jumbotron {
     position: relative;
     height: 100%;
@@ -260,7 +265,7 @@ p {
     padding: 18px 0 12px 0;
 }
 
-/* Article Images */
+/* Article Hero Images */
 
 #article-ta {
   background: #000 url("img/article_ta.jpg") center center;
@@ -316,6 +321,11 @@ p {
 /*  width: 100%;  */
 /*  max-width: 640px; */
 }
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
 
 .article ul {
   margin-left: 27px; /*15 for container + ... */
