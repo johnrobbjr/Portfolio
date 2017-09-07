@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    /*padding-top: 50px; /*for navbar*/
+    padding-top: 50px; /*for navbar*/
     margin-bottom: 40px; /*for footer*/
     font-size: 13pt;
 }
@@ -18,20 +18,20 @@ body {
 }
 
 h1 {
-  font-family: "bitter";
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin-bottom: 24px;
   font-size: 24pt;
 }
 
 h2 {
-  font-family: "bitter";
+  font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin-bottom: 24px;
 }
 
 h3 {
-  font-family: "bitter";
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   margin-bottom: 24px;
 }
@@ -57,23 +57,34 @@ p {
 
 .handshake {
   background-color: #5462C3;
-  color: #fff;
+  /*color: #fff;*/
+  color: #333;
   text-shadow: 0px 1px 8px rgba(0, 0, 0, .1);
-  background-image: url('img/handshake.jpg');
+  background-image: url('img/landing/handshake_02.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .handshake p {
-  font-family: "bitter";
+  /*font-family: "bitter";*/
   font-size: 11pt;
-  margin-bottom: 40px;
+  font-weight: bold;
+  /*margin-bottom: 40px;*/
+  /*margin-bottom: 20px;*/
 }
 
 .jumbotron {
   margin-bottom: 0;
   padding-bottom: 0;
+  /*padding-top: 100px;*/
+}
+
+.jumbotron h1 {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+
 }
 
 /* Intro Section*/
@@ -260,7 +271,8 @@ p {
     height: 100%;
     background-size: cover;
     overflow: hidden;
-    color: #fff;
+    /*color: #fff;*/
+    color: #6678FF;
     margin-bottom: 24px;
     padding: 18px 0 12px 0;
 }
@@ -292,10 +304,23 @@ p {
     background: #000 url("img/article_pp.jpg") center center;
 }
 
+#article-readapp {
+  /*background: #000 url("http://via.placeholder.com/1200x800") center center;*/
+  /*background: #000 url("img/article_readapp.jpg") center center;*/
+
+  /*testing patterns*/
+  background: center center;
+  background-image: "img/readapp/book-padded.png";
+  background-repeat: repeat;
+
+}
+
 
 .article .jumbotron h1 {
   line-height: 120%;
+  margin-top: 120px;
   margin-bottom: 10px;
+  background-color: #fff;
 }
 
 .article .jumbotron p {

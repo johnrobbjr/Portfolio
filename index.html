@@ -33,6 +33,7 @@
 
     <!-- TESTING OUT NEW FONTS 9/1/2017 -->
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,9 +56,32 @@
   })(window,document,'script','dataLayer','GTM-M688J4');</script>
   <!-- End Google Tag Manager -->
 
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">John Robb</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
   <div class="jumbotron handshake">
-    <div class="container text-center">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+    <div class="container">
+      <div class="col-xs-10 col-sm-8 col-sm-offset-1 col-md-6 col-md-offset-1">
         <h1>Hello!</h1>
         <p>I'm John Robb, and I design experiences through user observation and iterative design techniques</p>
       </div>
@@ -67,7 +91,6 @@
   <div class="container-fluid intro">
     <div class="container col-md-offset-2 col-md-4" style="padding:0">
         <ul class="fa-ul">
-          <!--<li><i class="fa-li fa fa-pencil"></i>UX Designer<br/><i>Ideation, user research, interaction design, and design validation</i></li>-->
           <li><i class="fa-li fa fa-pencil"></i>Seeking full-time UX Design work in Munich<br/><i>Previously  Google, Bentley UXC</i></li>
 
           <li><i class="fa-li fa fa-graduation-cap"></i>Bentley University<br/><i>MS in Human Factors in Information Design</i></li>
@@ -76,9 +99,9 @@
     </div>
   </div>
 
-  <div class="container-fluid work">
+  <div class="container-fluid work" id="projects">
   <div class="container col-md-8 col-md-offset-2">
-    <h1>My Work</h1>
+    <h1>Projects</h1>
 
 
     <!--1st position-->
@@ -272,7 +295,7 @@
 
   <div class="container-fluid about">
     <div class="container col-md-offset-2 col-md-8">
-      <h2>About Me</h2>
+      <h2 id="about">About Me</h2>
       <a class="fancybox" href="img/cfb.jpg">
         <img class="img-responsive col-xs-12 col-sm-4 col-md-5" src="img/cfb.jpg" alt="About Me Image">
       </a>
@@ -309,7 +332,7 @@
 
   <div class="container-fluid contact">
     <div class="container col-md-offset-2 col-md-8 text-center">
-      <h1>Let's Talk!</h1>
+      <h1 id="contact">Let's Talk!</h1>
         <p>johnhrobb@gmail.com</p>
         <p>914.356.9816</p>
         <a href="https://linkedin.com/in/johnrobbjr" target="_blank">
