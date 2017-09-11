@@ -42,34 +42,57 @@ h4 {
 
 p {
   font-size: 13pt;
+  font-family: 'Droid Serif', serif;
+}
+
+.navbar {
+  background-color: #FFF;
+  border: none;
+}
+
+.navbar li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  padding-left: 36px;
+}
+
+.navbar-right {
+  padding-right: 36px;
 }
 
 .btn {
   border-radius: 2px !important;
 }
 
-.caption {
-  margin-top: -20px;
-  margin-bottom: 16px;
-  font-style: italic;
-  color: #999;
-}
-
 .handshake {
-  background-color: #5462C3;
-  /*color: #fff;*/
+  background-color: #FFF;
   color: #333;
-  text-shadow: 0px 1px 8px rgba(0, 0, 0, .1);
+  /*text-shadow: 0px 1px 8px rgba(0, 0, 0, .1);*/
   background-image: url('img/landing/handshake_02.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.handshake h1 {
+  color: #6678ff;
+  font-size: 64px;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
 .handshake p {
   /*font-family: "bitter";*/
   font-size: 11pt;
   font-weight: bold;
+  padding-bottom: 24px;
   /*margin-bottom: 40px;*/
   /*margin-bottom: 20px;*/
 }
@@ -80,23 +103,27 @@ p {
   /*padding-top: 100px;*/
 }
 
-.jumbotron h1 {
-  margin-top: 100px;
-  margin-bottom: 10px;
-  font-family: 'Playfair Display', serif;
-
-}
-
 /* Intro Section*/
 
 .intro {
   background-color: #f2f2f2;
   width: 100%;
-  padding: 20px 0px;
+  padding: 60px 0px;
+  font-size: 18px;
+}
+
+.intro .note {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
 }
 
 .intro li {
-  margin: 12px;
+  margin: 32px 12px;
+}
+
+.intro p {
+  font-size: 18px;
 }
 
 .work a {
@@ -134,10 +161,12 @@ p {
   margin: 0;
 }
 
+/*note below the article title*/
 .work p {
   font-size: 11pt;
   color: #999;
-  font-style: italic;
+  /*font-style: italic;*/
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0;
   line-height: 120%;
 }
@@ -198,7 +227,7 @@ p {
 }
 
 .about-lead {
-  font-family: "bitter";
+  font-family: "Playfair Display" serif;
   font-size: 13pt;
 }
 
@@ -254,6 +283,7 @@ p {
   margin-bottom: 10px;
   text-align: center;
   color: #666;
+  font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -262,8 +292,19 @@ p {
 /************* ARTICLE ***************************/
 
 .article p {
-    font-family: 'Droid Serif', serif;
+    /*font-family: 'Droid Serif', serif;*/
     line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.caption {
+  margin-top: -20px;
+  margin-bottom: 42px !important;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  /*font-style: italic;*/
+  font-size: 14px;
+  color: #999;
 }
 
 .article .jumbotron {
@@ -305,22 +346,23 @@ p {
 }
 
 #article-readapp {
+  background: #fff;
   /*background: #000 url("http://via.placeholder.com/1200x800") center center;*/
   /*background: #000 url("img/article_readapp.jpg") center center;*/
 
   /*testing patterns*/
-  background: center center;
+  /*background: center center;
   background-image: "img/readapp/book-padded.png";
-  background-repeat: repeat;
+  background-repeat: repeat;*/
 
 }
 
 
 .article .jumbotron h1 {
   line-height: 120%;
-  margin-top: 120px;
+  margin-top: 60px;
   margin-bottom: 10px;
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .article .jumbotron p {
@@ -331,12 +373,24 @@ p {
 .article h2 {
   font-size: 20pt;
   margin-bottom: 16px;
-  margin-top: 32px;
+  margin-top: 72px;
 }
 
 .article h3 {
   margin-bottom: 8px;
   margin-top: 28px;
+}
+
+
+.quote {
+  color: #999;
+  font-family: 'Droid Serif', serif;
+  /*font-weight: */
+  font-size: 24px;
+  font-style: oblique;
+  margin: 60px 0px;
+  line-height: 160%;
+  /*margin: auto;*/
 }
 
 .article img {
@@ -353,11 +407,14 @@ p {
 
 
 .article ul {
-  margin-left: 27px; /*15 for container + ... */
+  /*margin-left: 27px; /*15 for container + ... */
+  margin-left: 43px;
+  font-family: 'Droid Serif', serif;
+  margin-bottom: 36px;
 }
 
 .article li {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .article blockquote {

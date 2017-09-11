@@ -11,7 +11,8 @@
   }
 
   .handshake h1 {
-    margin-bottom: 36px;
+    margin-bottom: 24px;
+    font-size: 96px;
   }
 
   .handshake p {
@@ -19,7 +20,7 @@
   }
 
   .intro {
-    padding: 40px 0;
+    /*padding: 40px 0;*/
   }
 
   .work {

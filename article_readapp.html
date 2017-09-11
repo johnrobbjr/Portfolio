@@ -27,7 +27,9 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
-    <link href='https://fonts.googleapis.com/css?family=Bitter:400,400italic,700|Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,900" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -59,7 +61,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html">John Robb</a>
+        <a class="navbar-brand" href="index.html">Jr</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -75,7 +77,7 @@
 <div class="article">
 
   <div class="jumbotron" style="padding-right: 0" id="article-readapp">
-    <div class="container col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+    <div class="container col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
       <h1>Designing a Reading Companion (WIP)</h1>
       <p>August, 2017</p>
     </div>
@@ -88,107 +90,198 @@
       <i class="fa fa-angle-left"></i>&nbsp;&nbsp;<b>Home</b>
     </a> -->
 
+    <a class="fancybox" href="img/readapp/gr-cover.png">
+      <img src="img/readapp/gr-cover.png" class="img-responsive no-shadow" alt="Progression of design iterations">
+    </a>
+    <p class="caption">Progression of design iterations</p>
+
 	<p>
-    For about a month, I became an obsessive bookworm, chomping my way through library books as fast as I could. I was trying to find a way to hone my skills with Sketch, and figured this would be the perfect opportunity: <b>What would a great app to accompany book-reading look like?</b>
+    For about a month, I became an obsessive bookworm. During this time I found some pain points (finding a book to read, no updated apps to track books I’ve read) and delights (great conversations about a book, sampling books from the library) during this experience.
+  </p>
+  <p>
+    In order to exercise my design skills and practice using Sketch, I began to design an app with this prompt in mind:
 	</p>
 
-  <p> TODO: JR - create a call-out "quote"-like thing (like Medium has), and call out things like the quote from the above p </p>
-
-    <a class="fancybox" href="img/readapp/gr-issues.png">
-    <img src="img/readapp/gr-issues.png" class="img-responsive no-shadow">
-  </a>
-    <p class="caption">Before the redesign</p>
-
-  <p>
-    The website was generated from a template, and the content and interactions were not created with the product or the user in mind.
+  <p class="quote text-center">
+    What would a great book-reading companion app look like?
   </p>
 
-  <p>
-    Our current landing page was not responsive, and by looking at our analytics, I discovered that it was receiving 10% of traffic through mobile devices. I determined that this was enough reason to create a responsive website. UX pitfalls were scattered throughout the website including dead-end flows, off-target copy, and unnecessary clutter.
-  </p>
+
 
     <h2>Challenges</h2>
-    <b>Time:</b> I had about 3 weeks to complete the redesign since no other designer would be hired to pick up the project once I left. I used a Jira Kanban board to keep myself on schedule.
-    <br/>
-    <br/>
-    <b>Team:</b> I was the only designer at the company, so I used my team to get feedback and ask questions throughout the design process.
-    <br/>
-    <br/>
-    <b>Experience:</b> I had not designed a full web landing page before, so research and competitive analysis would drive some decisions.
-
-    <h2>Process</h2>
-
-    After talking to a number of team members, I found out what users we would target for a free trial, and what information they would be looking for. I looked at competitors' websites as well as documentation on creating landing pages with high conversion rates.
-
-    First I completed some low-fidelity sketches to allow rapid iteration on the concept:
-
-    <a class="fancybox" href="img/ta/sketch_01.png">
-    <img src="img/ta/sketch_01.png" class="img-responsive">
-  </a>
-
-    I then moved into medium-fidelity wireframes:
-
-    <a class="fancybox" href="img/ta/wireframe_01.png">
-    <img src="img/ta/wireframe_01.png" class="img-responsive">
-  </a>
-
-    After many iterations of the high-fidelity designs, the landing page for web was finished:
-    <a class="fancybox" href="img/ta/corp-web_18.png">
-    <img src="img/ta/corp-web_18.png" class="img-responsive">
-  </a>
-
-    At this point I quickly learned the value of mobile-first design as I crunched full-width designs into mobile- and tablet-optimized screens:
-
-    <a class="fancybox" href="img/ta/mobile-tablet_03.png">
-    <img src="img/ta/mobile-tablet_03.png" class="img-responsive">
-  </a>
-
-    I exported the assets, sent them to our front-end developer, and maintained open communication throughout the implementation phase.
-
-    Two weeks later the website was up and running, and is live (with minor changes since I left the company) at <a href="https://www.tissue-analytics.com/" target="_blank">tissue-analytics.com</a>.
-
-    <h2>What I Would Do Differently</h2>
     <p>
-      Creating a customer journey map could have illustrated onboarding problems to stakeholders, driving design solutions for the landing page as well as for future projects.
-      <br/><br/>
-      Using a mobile-first strategy would have saved time and effort in the design process.
+      <b>Time:</b> I was making this app during my personal time after work, so I didn't have much time and resources to dedicate to the project
+    </p>
+    <p>
+      <b>Scope:</b> An app like this could quickly get messy with too many features, the scope would have to be clearly defined.
     </p>
 
-    <h2>What Went Well</h2>
-
+    <h2>Process</h2>
     <p>
-    Involving the entire startup throughout the process not only led to a product that we could all be proud of, but also encouraged communication between team members that did not typically get to work on mutual projects.
-    <br/><br/>
-    The project unveiled significant flaws in the website's workflow that were solved through design.
-    <br/><br/>
+      Before designing the app, I captured what the current book reading experience is like, and where it could be improved by writing up rudimentary user journeys. I used these to look for delighters and pain points throughout the current reading experience, and where my app might fit into the experience.
+    </p>
 
-    <b><a href="https://www.tissue-analytics.com/" target="_blank">View the Tissue Analytics landing page&nbsp;<i class="fa fa-chevron-right"></i></a></b></font>
-
-    <br/>
-    <hr/>
-
-    <h2>Other Work from Tissue Analytics</h2>
-
-    I redesigned the Tissue Analytics hybrid mobile application for iOS and Android. I used QML (a front-end cross-platform development language)  to implement these designs.
-    <a class="fancybox" href="img/ta/portfolio_taMobileApp.png">
-    <img src="img/ta/portfolio_taMobileApp.png" class="img-responsive">
+  <a class="fancybox" href="img/readapp/journeys.png">
+    <img src="img/readapp/journeys.png" class="img-responsive no-shadow" alt="Sketches of user journeys">
   </a>
+  <p class="caption">Sketches of user journeys</p>
 
-    The dashboard of the Doctor/RN-facing Tissue Analytics web application, where administrators can track patient appointments and the progress of their wounds:
-    <a class="fancybox" href="img/ta/TA_Task Manager_17.png">
-    <img src="img/ta/TA_Task Manager_17.png" class="img-responsive">
+  <h2>Current Landscape</h2>
+  <p>
+    I looked to non-reading related apps for inspiration and ideas:
+  </p>
+  <ul>
+    <li>Spotify’s playlists and “Discover” feature are both great ways to explore new content</li>
+    <li>Duolingo’s “Clubs” feed is great inspiration for a book-club style feature</li>
+    <li>Runkeeper and Duolingo’s “Profile” pages show status and profile details</li>
+  </ul>
+  </p>
+  <a class="fancybox" href="img/readapp/inspiration.png">
+    <img src="img/readapp/inspiration.png" class="img-responsive no-shadow" alt="Taking inspiration from Spotify playlists, Runkeeper profile, and Duolingo Clubs">
   </a>
+  <p class="caption">Taking inspiration from Spotify playlists, Runkeeper profile, and Duolingo Clubs</p>
 
-    I illustrated a series of silhouettes to be used on Tissue Analytics mobile app. A nurse would take a photo of a wound, then select the part of the body (the right leg is shown here) where the photo was taken.
+  <p>
+    I spotted a few pain points that already exist in Goodreads (which would be a direct competitor):
+  </p>
+    <ul>
+      <li>Long onboarding flow</li>
+      <li>Confusing information architecture</li>
+      <li>No good ‘exploration’ experience to find new books</li>
+      <li>Outdated visual design style</li>
+    </ul>
 
-    <a class="fancybox" href="img/ta/leg.gif">
-    <img src="img/ta/leg.gif" class="img-responsive" style="width: 200px;">
-  </a>
+    <a class="fancybox" href="img/readapp/goodreads-shots.png">
+      <img src="img/readapp/goodreads-shots.png" class="img-responsive no-shadow" alt="Goodreads has a cumbersome onboarding flow and confusing architecture">
+    </a>
+    <p class="caption">Goodreads has a cumbersome onboarding flow and confusing architecture</p>
+
+    <!-- <h2>Exploring the problem space</h2>
+    To
+    Why do people choose to read a book?
+    Prestige? (everyone’s talking about it)
+    Critically acclaimed? (A friend’s recommendation)
+    The time of year/mood?
+    Time in their life (Self-help books)
+    If they identify with the author (Thoreau)
+    The author’s story (Between a rock and a hard place)
+    A popular movie is out (Girl on a train)
+    An author I enjoy (Cat’s Cradle)
+    Book club (Persepolis)
+
+    I looked back on books that I had read, and why I read them? -->
+
+    <h2>Information Architecture</h2>
+    <p>
+      I created a preliminary information architecture to help guide my designs and define a scope for the project.
+    </p>
+    <p>
+      Creating this architecture helped me think through which features would logically appear where, and helped me to know which pages would be best to design first.
+    </p>
+
+    <a class="fancybox" href="img/readapp/info-arch.png">
+      <img src="img/readapp/info-arch.png" class="img-responsive no-shadow" alt="Basic app architecture">
+    </a>
+    <p class="caption">Basic app architecture</p>
+
 
     <!--BACK BUTTON, breadcrumb-->
     <!-- <a href="index.html" class="btn btn-default" role="button" style="margin-bottom:18px; margin-top: 24px">
       <i class="fa fa-angle-left"></i>&nbsp;&nbsp;<b>Home</b>
     </a> -->
+
+    <h2>Wireframes and Visual Design</h2>
+    <h3>Now Reading: your reading companion</h3>
+    <a class="fancybox" href="img/readapp/info-arch.png">
+      <img src="img/readapp/info-arch.png" class="img-responsive no-shadow" alt="Basic app architecture">
+    </a>
+    <p class="caption">"Now Reading" feature</p>
+
+    <!-- <p>
+      This is for ‘during’ the reading experience. The goal of comments would to get the benefit of an insightful conversation about a good book without attending a book club.
+    </p>
+
+    <p>
+      Spoilers here would be a huge issue, so I included a slider to only show comments relevant to that chapter. Commenters would be able to include a “spoiler alert.”
+    </p>
+
+    <p>
+      By making a flexible book-card, people that pick up multiple books at once could also easily use the interface.
+    </p> -->
+
+    <h3>Explore: discovering new books</h3>
+    <a class="fancybox" href="img/readapp/info-arch.png">
+      <img src="img/readapp/info-arch.png" class="img-responsive no-shadow" alt="Basic app architecture">
+    </a>
+    <p class="caption">"Now Reading" feature</p>
+
+    <p>
+      One of my major pain points is finding a new book to read, and no apps or websites have been able to assist me. After thinking on how we decide to read a new book, I realized we don’t often pick it by the way books are often sorted (by genre or title), but instead by categories such as:
+    </p>
+    <ul>
+      <li>An interest in the author’s life story</li>
+      <li>A recommendation from a friend</li>
+      <li>Enjoyed previous works by that author</li>
+      <li>Reading it for a book club</li>
+    </ul>
+    <p>
+      In order to better accomodate for these reasons that we read books, I decided using a playlist metaphor here would work best. Rather than sorting only by genre, books can be selected from groups like:
+    </p>
+    <ul>
+      <li>“Summer short stories”</li>
+      <li>“Top 10 horror stories of all time”</li>
+      <li>“My saved books”</li>
+      <li>“Bill Gates’ summer reading list”</li>
+    </ul>
+
+
+    <h3>Sampling books like Snapchat: Immersive Playlist view</h3>
+    <a class="fancybox" href="img/readapp/info-arch.png">
+      <img src="img/readapp/info-arch.png" class="img-responsive no-shadow" alt="Basic app architecture">
+    </a>
+    <p class="caption">"Now Reading" feature</p>
+
+    <p>
+      Another pain point I found while looking for a new book in the library was often that most of my selection process involves judging a book by its cover, picking it up, then reading the first few paragraphs. There is no digital equivalent of sampling books this quickly.
+    </p>
+    <p>
+      My question here was:
+    </p>
+    <p class="quote text-center">
+      What if we had a way to sample books with the ephemerality and low commitmebnt of the way users scan through Snapchat?
+    </p>
+    <p>
+      After tapping on a playlist, it would take you to the Immersive Playlist view. The user could read a few sentences/paragraphs of the first book or look through the reviews, its accolades, and summary.
+    </p>
+
+    <h2>What's next</h2>
+    <p>
+      I met with a fellow Bentley grad, <a href=”http://reedsnider.com/”>Reed</a> to get feedback on my ideas. A couple of takeaways from the conversation:
+    </p>
+    <ul>
+      <li>Create a more visual experience, use the book covers more strongly</li>
+      <li>Set more clear goals to avoid scope creep</li>
+      <li>Creating an interactive prototype</li>
+    </ul>
+
+    <h2>What I would do differently</h2>
+    <p>
+      Invest more time for informal research (possibly send out an informal survey to friends/family about their reading habits)
+    </p>
+    <p>
+      Set more clear goals and user needs to address at the beginning of the project (personal goals, product goals, and user needs). A journey map might help establish these goals
+    </p>
+    <p>
+      Using forums, design communities, and friends to get more feedback throughout the design process.
+    </p>
+
+    <h2>What went well</h2>
+    <p>
+      Became more familiar with Sketch as a tool
+    </p>
+    <p>
+      SECOND AND THIRD THINGS
+    </p>
 
   </div>
 </div>
