@@ -27,6 +27,35 @@
     padding: 40px 0 32px 0;
   }
 
+  .work .well {
+    padding: 72px 72px;
+  }
+
+  .work img {
+    height: 72px;
+    /*margin-bottom: 72px;*/
+  }
+
+  .well i {
+    font-size: 72px;
+    /*margin-bottom: -1000px;*/
+  }
+
+  .well {
+    padding: 60px;
+  }
+
+  .well h2 {
+    font-size: 60px;
+    margin-top: 42px;
+  }
+
+
+
+  .work .well p {
+    font-size: 18px;
+  }
+
   .xp {
     padding: 28px 0 28px 0;
   }
