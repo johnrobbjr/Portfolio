@@ -9,10 +9,6 @@ body {
     font-size: 13pt;
 }
 
-/*div {
-  margin:0px !important;  - MARGIN IS THE PROBLEM
-}*/
-
 .container-fluid {
   padding: 0;
 }
@@ -32,6 +28,7 @@ h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   margin-bottom: 24px;
+  margin-top: 60px;
 }
 
 h3 {
@@ -112,7 +109,7 @@ p {
 .handshake p {
   /*font-family: "bitter";*/
   font-size: 11pt;
-  font-weight: bold;
+  /*font-weight: bold;*/
   padding-bottom: 24px;
   /*margin-bottom: 40px;*/
   /*margin-bottom: 20px;*/
@@ -457,6 +454,7 @@ p {
     line-height: 160%;
     margin-bottom: 20px;
 }
+
 
 .caption {
   margin-top: -20px;
